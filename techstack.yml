@@ -1,11 +1,11 @@
 repo_name: ss-test-BackEnd0/Selenium
-report_id: e3a733d1c805d72d5ae3491f078e2b40
+report_id: d432b6d6e57e43f9ed5e6124df8003d6
 repo_type: Public
-timestamp: '2023-11-09T12:58:03+00:00'
+timestamp: '2023-12-05T08:58:12+00:00'
 requested_by: web-flow
 provider: github
 branch: main
-detected_tools_count: 7
+detected_tools_count: 20
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -47,7 +47,7 @@ tools:
   category: Monitoring
   sub_category: Logging Tools
   image_url: https://img.stackshare.io/service/2804/Coralogix-log4j-integration.jpg
-  detection_source_url: DataDrivenFramwork/pom.xml
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -63,6 +63,33 @@ tools:
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: com.google.inject:guice
+  description: Guice is a lightweight dependency injection framework for Java 6 and
+    above
+  version: 4.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: com.mashape.unirest:unirest-java
+  description: Simplified, lightweight HTTP client library
+  version: 1.4.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
 - name: commons-io:commons-io
   description: The Apache Commons IO library contains utility classes
   version: '2.6'
@@ -72,7 +99,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: DataDrivenFramwork/pom.xml
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -83,6 +110,102 @@ tools:
     detected_date: Aug 22
     severity: moderate
     first_patched: '2.7'
+- name: dom4j:dom4j
+  description: Flexible XML framework for Java
+  version: '1.1'
+  license: Plexus
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+  vulnerabilities:
+  - name: dom4j allows External Entities by default which might enable XXE attacks
+    cve_id: CVE-2020-10683
+    cve_url: https://github.com/advisories/GHSA-hwj3-m3p6-hj38
+    detected_date: Jan 28
+    severity: critical
+    first_patched: 
+  - name: Dom4j contains a XML Injection vulnerability
+    cve_id: CVE-2018-1000632
+    cve_url: https://github.com/advisories/GHSA-6pcc-3rfx-4gpm
+    detected_date: Jan 28
+    severity: high
+    first_patched: 
+- name: io.github.bonigarcia:webdrivermanager
+  description: Automatic Selenium WebDriver binaries management in runtime for Java
+  version: 5.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: javax.mail:mail
+  description: "${project.name}"
+  version: 1.4.7
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: log4j:log4j
+  description: Apache Log4j 1.2
+  version: 1.2.17
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+  vulnerabilities:
+  - name: SQL Injection in Log4j 1.2.x
+    cve_id: CVE-2022-23305
+    cve_url: https://github.com/advisories/GHSA-65fg-84f6-3jq3
+    detected_date: Jan 22
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Apache Log4j
+    cve_id: CVE-2022-23307
+    cve_url: https://github.com/advisories/GHSA-f7vh-qwp3-x37m
+    detected_date: Nov 26
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Log4j
+    cve_id: CVE-2019-17571
+    cve_url: https://github.com/advisories/GHSA-2qrg-x229-3v8q
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 
+  - name: Deserialization of Untrusted Data in Log4j 1.x
+    cve_id: CVE-2022-23302
+    cve_url: https://github.com/advisories/GHSA-w9p3-5cr8-m3jj
+    detected_date: Jan 22
+    severity: high
+    first_patched: 
+  - name: JMSAppender in Log4j 1.2 is vulnerable to deserialization of untrusted data
+    cve_id: CVE-2021-4104
+    cve_url: https://github.com/advisories/GHSA-fp5r-v3w9-4333
+    detected_date: Dec 15
+    severity: high
+    first_patched: 
 - name: mysql:mysql-connector-java
   description: MySQL JDBC Type 4 driver
   version: 8.0.12
@@ -92,7 +215,7 @@ tools:
   category: Libraries
   sub_category: Maven Packages
   image_url: https://img.stackshare.io/package/maven/image.png
-  detection_source_url: DataDrivenFramwork/pom.xml
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
   detection_source: DataDrivenFramwork/pom.xml
   last_updated_by: Bhautik
   last_updated_on: 2022-11-16 11:28:48.000000000 Z
@@ -122,3 +245,158 @@ tools:
     detected_date: Jun 21
     severity: moderate
     first_patched: 8.0.28
+- name: org.apache.poi:poi
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+  vulnerabilities:
+  - name: Denial of Service in Apache POI
+    cve_id: CVE-2017-12626
+    cve_url: https://github.com/advisories/GHSA-523c-xh4g-mh5m
+    detected_date: Aug 22
+    severity: high
+    first_patched: '3.17'
+  - name: Denial of Service in Apache POI
+    cve_id: CVE-2012-0213
+    cve_url: https://github.com/advisories/GHSA-jqx5-h2hw-5q4f
+    detected_date: Aug 16
+    severity: moderate
+    first_patched: 3.10-beta1
+  - name: Improper Restriction of XML External Entity Reference in Apache POI
+    cve_id: CVE-2014-3529
+    cve_url: https://github.com/advisories/GHSA-q56h-jjj6-52mf
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 3.10.1
+  - name: Improper Restriction of XML External Entity Reference in Apache POI
+    cve_id: CVE-2016-5000
+    cve_url: https://github.com/advisories/GHSA-pmqq-7wfv-jfff
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: '3.14'
+  - name: Improper Input Validation in Apache POI
+    cve_id: CVE-2014-3574
+    cve_url: https://github.com/advisories/GHSA-5wfp-8643-c58x
+    detected_date: Aug 16
+    severity: moderate
+    first_patched: 3.10.1
+  - name: Improper Restriction of Recursive Entity References in DTDs in Apache POI
+    cve_id: CVE-2017-5644
+    cve_url: https://github.com/advisories/GHSA-78vv-qj73-h9m5
+    detected_date: Jul 2
+    severity: moderate
+    first_patched: '3.15'
+  - name: 'Improper Restriction of XML External Entity Reference in Apache POI '
+    cve_id: CVE-2019-12415
+    cve_url: https://github.com/advisories/GHSA-9jwc-q6j3-8g9g
+    detected_date: Jun 29
+    severity: moderate
+    first_patched: 4.1.1
+  - name: Loop with Unreachable Exit Condition in Apache POI
+    cve_id: CVE-2014-9527
+    cve_url: https://github.com/advisories/GHSA-x9mm-6gpf-f749
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: '3.11'
+- name: org.apache.poi:poi-ooxml
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: org.apache.poi:poi-ooxml-schemas
+  description: Apache POI - Java API To Access Microsoft Format Files
+  version: '3.6'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: org.apache.xmlbeans:xmlbeans
+  description: XmlBeans main jar
+  version: 2.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+  vulnerabilities:
+  - name: Improper Restriction of Recursive Entity References in Apache XMLBeans
+    cve_id: CVE-2021-23926
+    cve_url: https://github.com/advisories/GHSA-mw3r-pfmg-xp92
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 3.0.0
+- name: org.seleniumhq.selenium:selenium-java
+  description: Selenium automates browsers
+  version: 4.3.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+- name: org.testng:testng
+  description: Testing framework for Java
+  version: 6.14.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
+  vulnerabilities:
+  - name: TestNG is vulnerable to Path Traversal
+    cve_id: CVE-2022-4065
+    cve_url: https://github.com/advisories/GHSA-rc2q-x9mf-w3vf
+    detected_date: Dec 3
+    severity: high
+    first_patched: 7.5.1
+- name: org.uncommons:reportng
+  description: ReportNG is a simple HTML reporting plug-in for the TestNG unit-testing
+    framework
+  version: 1.1.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/ss-test-BackEnd0/Selenium/blob/main/DataDrivenFramwork/pom.xml
+  detection_source: DataDrivenFramwork/pom.xml
+  last_updated_by: Bhautik
+  last_updated_on: 2022-11-16 11:28:48.000000000 Z
